@@ -40,10 +40,43 @@ With the aim of having better accruacy of the end effect position, we add a feed
 In the PID control module, we subtract the desired data from the actual data to obtain the error value, which is then used for PID calculation. We noticed that joints 1, 3, and 4 only use PD controllers because these three joints require a fast response speed and low overshoot, and have lower requirements for steady-state error. For joint 2, which uses a PID controller, it is sensitive to steady-state error due to its rotation around the y-axis. Although there may be difficulty in tuning, we successfully completed the debugging process.
 
 
-
-
 \subsection{Results}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=7cm]{./fig/re.png}
+    \caption{plastic modules of rectangular section}
+    \label{f1}
+\end{figure}
+
+Finally, set the end effector positions and the desired end effector positoins as the input, draw the plot with their x y z positions followed by the time respectively.
+
+\subsubsection*{Input torque}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=10cm]{./fig/3.jpg}
+    \caption{plastic modules of rectangular section}
+    \label{f1}
+\end{figure}
 
 
+\subsubsection*{Joint angle}
 
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{./fig/4.jpg}
+    \includegraphics[width=8cm]{./fig/6.jpg}
+    \caption{plastic modules of rectangular section}
+    \label{f1}
+\end{figure}
+
+\subsubsection*{End Effector Position}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{./fig/5.jpg}
+    \includegraphics[width=8cm]{./fig/7.jpg}
+    \caption{plastic modules of rectangular section}
+    \label{f1}
+\end{figure}
