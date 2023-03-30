@@ -19,6 +19,17 @@
 \usepackage{booktabs}  % Behind-the-scenes optimization of tables. \toprule, \midrule, \bottomrule
 \usepackage{multirow}
 \usepackage{hyperref}  % Ability to click on references like equations, figures, sections etc. \ref{eq:my_eq} clickable
+
+%表格自动生成
+\renewcommand {\thetable} {\thechapter{}.\arabic{table}}
+%表格根据章节自动命名
+\renewcommand {\thefigure} {\thechapter{}.\arabic{figure}}
+%图片根据章节自动命名
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+\numberwithin{equation}{section}
+%以上三个皆控制重命名
+
 \usepackage{fontspec}
 \setmainfont{Arial}
 

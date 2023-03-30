@@ -27,10 +27,51 @@ After discussion and doing some references, our group decide to make our robot a
 \end{itemize}
 
 
+\subsection{All the arms and the joints:}
+
+\textbf{robot arms: [name, mass, center of mass, Inertia]}
 
 
+\begin{minipage}[htbp]{\textwidth}
+    \makeatletter\def\@captype{table}
+    \centering
+    \scalebox{1}{
+    \begin{tabular}{cccc}
+    \hline
+    Name & Body Mass (kg) & Center of mass & Inertia ($I_{xx}$ $I_{yy}$ $I_{zz}$) ($kg \cdot m^2$)                  \\ \hline
+    R1   & 10        & (0 0 0)        & (0.27 0.27 0.8 )     \\
+    R2   & 10        & (0 0 0)        & (0.27 0.27 0.8 )     \\
+    P1   & 1.5       & (0 0 0)        & (0.07 0.07 0.07 )    \\
+    P2   & 1.5       & (0 0 0)        & (0.07 0.07 0.07 )    \\
+    Tool & 1.2       & (0 0 0)        & (0.002 0.002 0.004 ) \\ \hline
+    \end{tabular}} 
 
 
+    \caption{Experiment parameters}
+    \label{t1} 
+\end{minipage}
+
+
+\textbf{Joint angles:(The limit of the joint, Type of the joints)}
+
+\begin{minipage}[htbp]{\textwidth}
+    \makeatletter\def\@captype{table}
+    \centering
+    \scalebox{1}{
+    \begin{tabular}{cccc}
+    \hline
+    Joint & Type & Position Limit (rad \& m) & Joint Axis                   \\ \hline
+    1   & revolute       & $[-5\frac{\pi}{180}, 5\frac{\pi}{180}]$ & [0 0 1]     \\
+    2   & revolute       & $[-30\frac{\pi}{180}, 30\frac{\pi}{180}]$        & [0 1 0]     \\
+    3   & prismatic      & [-0.5,0.5]        & [1 0 0]    \\
+    4   & prismatic      & [-1, 1]        & [0 1 0]    \\ 
+    Fixed &revolute & N/A & N/A \\\hline
+    \end{tabular}} 
+
+    (Unit: mm)
+    \caption{Experiment parameters}
+    \label{t1} 
+\end{minipage}
 
 
 
