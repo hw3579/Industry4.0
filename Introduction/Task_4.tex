@@ -74,6 +74,15 @@ Finally, set the end effector positions and the desired end effector positoins a
     \label{f1}
 \end{figure}
 
+As we can see in the 'joint angle error' plot, 
+The error of joint1 angle does not exceed the limit of $10^{-3}$, but it fluctuates throughout the process;
+The error of joint2 angle is the largest, and it nearly reaches 0.02, the error tends to be stable except for large fluctuations at the peak throughout the process;
+Both the maximum error of joint3 angle and joint4 angle are below 5*10-3, but joint3 angle error are steady increase to the maximum error, and remain stable on the maximum angle error; as for joint4 angle, there is almost no error in the first ten seconds, and there is always a period of stability after the changes of the error.
+Overall, the errors are small and will not have a significant impact on the operation of the robot.
+
+
+
+
 \subsubsection*{End Effector Position}
 
 \begin{figure}[htbp]
@@ -83,3 +92,5 @@ Finally, set the end effector positions and the desired end effector positoins a
     \caption{plastic modules of rectangular section}
     \label{f1}
 \end{figure}
+
+As we can see in the 'end effector position error' plot, the maximum error in end effector position on the x and z axes is below 0.05, while the maximum error on the y axis is slightly over 0.10. The errors in the x and z axes fluctuate simultaneously, while the error in the y axis gradually increases as the errors in the former axes begin to decrease. There is a small amount of error throughout the entire process, but it is not significant. It has almost no impact in reality.
