@@ -27,13 +27,9 @@ After discussion and doing some references, our group decide to make our robot a
 \end{itemize}
 
 
-
-\subsection{Collision discussion}
-
-
-
 \subsection{Property of all the arms and the joints}
 
+We have designed 4 joints for the robot, 2 of which are revolute type and 2 are prismatic type. At the same time, there are four corresponding robotic arms, whose parameters are shown in the following table:
 
 \begin{minipage}[htbp]{\textwidth}
     \makeatletter\def\@captype{table}
@@ -55,7 +51,6 @@ After discussion and doing some references, our group decide to make our robot a
 \end{minipage}
 
 
-
 \begin{minipage}[htbp]{\textwidth}
     \makeatletter\def\@captype{table}
     \centering
@@ -65,8 +60,8 @@ After discussion and doing some references, our group decide to make our robot a
     Joint & Type & Position Limit (rad \& m) & Joint Axis                   \\ \hline
     1   & revolute       & $[-5\frac{\pi}{180}, 5\frac{\pi}{180}]$ & [0 0 1]     \\
     2   & revolute       & $[-30\frac{\pi}{180}, 30\frac{\pi}{180}]$        & [0 1 0]     \\
-    3   & prismatic      & [-0.5,0.5]        & [1 0 0]    \\
-    4   & prismatic      & [-1, 1]        & [0 1 0]    \\ 
+    3   & prismatic      & $[-0.5,0.5]$        & [1 0 0]    \\
+    4   & prismatic      & $[-1, 1]$        & [0 1 0]    \\ 
     Fixed &revolute & N/A & N/A \\\hline
     \end{tabular}} 
 
@@ -75,63 +70,15 @@ After discussion and doing some references, our group decide to make our robot a
     \label{t1} 
 \end{minipage}
 
+This is a schematic diagram of the robot in MATLAB.
 
-
-
-\iffalse
-The frame is made of mild steel and has a uniform rectangular cross-section. Also, The rig is equipped with two gauges to monitor the horizontal deflection of the beam and its central vertical deflection. The yield strenth of the steel is 250MPa.
-
-The experimental parameters are shown in the following table \autoref{t1}.
-
-\begin{minipage}[htbp]{\textwidth}
-    \makeatletter\def\@captype{table}
+\begin{figure}[htbp]
     \centering
-    \scalebox{1}{
-        \begin{tabular}{lllll}
-            \hline
-            Data type &Height & Length & Thickness & Width \\ \hline
-            Theory&200    & 300    & 3.00      & 12.00 \\ 
-            Actual&200    & 304    & 3.27      & 12.97 \\ \hline
-            \end{tabular}} 
+    \includegraphics[width=10cm]{./fig/1.jpg}
+    \caption{Force vs deformation and total moment diagram}
+    \label{f4}
+\end{figure}
 
-    (Unit: mm)
-    \caption{Experiment parameters}
-    \label{t1} 
-\end{minipage}
+\subsection{Collision discussion}
 
-
-The experiment entails the following steps:
-\begin{enumerate}
-    \item Measure and record the dimensions of the frame and its cross-section.
-
-    \item Ensure the loading rig is in proper working condition and inspect cables for damage.
-    
-    \item Zero the force and displacement readings while the rig is still unloaded.
-    
-    \item Gradually apply increasing horizontal and vertical loads to the frame in increments of 10 N. The relationships between P and W are $y=x$\label{ee1}.
-    
-    \item Record the applied forces and corresponding deflections for each increment.
-    
-    \item Continue the process until a plastic failure occurs, and observe the formation of plastic hinges and position.
-    
-    \item Unload the frame and identify the locations of plastic hinges by observing permanent rotation in the joints.
-    
-\end{enumerate}
-
-Here are the recorded data \autoref{t2}.
-
-\begin{minipage}[htbp]{\textwidth}
-    \makeatletter\def\@captype{table}
-    \centering
-    \scalebox{0.85}{
-        \begin{tabular}{ccccccccccccccc}
-            \hline
-            \multirow{2}{*}{Force(N)}    & Vertical   & 10   & 20   & 30   & 40   & 50   & 60   & 70   & 80   & 90   & 100  & 110  & 120   & 130   \\
-                                      & Horizontal & 10   & 20   & 30   & 40   & 50   & 60   & 70   & 80   & 90   & 100  & 110  & 120   & 130   \\ \hline
-            \multirow{2}{*}{Distance(mm)} & Vertical   & 0.06 & 0.05 & 0.1  & 1.42 & 2.13 & 2.26 & 2.8  & 3.22 & 3.62 & 4.28 & 5.23 & 7.46  & 12.88 \\
-                                      & Horizontal & 0.88 & 1.58 & 2.15 & 2.99 & 4.04 & 4.44 & 5.06 & 6.48 & 7.63 & 8.55 & 9.31 & 15.05 & 23.08 \\ \hline
-            \end{tabular}} 
-    \caption{Record data}
-    \label{t2} 
-\end{minipage}
-\fi
+Our designed robot is free from collisions. In most cases, collisions occur on the two arms of the rotating joints whose rotation angle is greater than ±90 degrees. For our designed robot, the total range of motion for the two movable joints is ±35 degrees, so there is no collision. Additionally, the animation of the robot's movement trajectory can be viewed in the dynamic image in Figure 8.

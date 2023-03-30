@@ -25,6 +25,9 @@ To ensure aesthetic appeal, a modular design approach was adopted, where differe
 
 Trajectory generation module is an important component of robot motion planning, as it allows robots to move safely and efficiently in complex environments.This module is to convert signals from one coordinate system to another so that we can have easier control of the system. Additionally, the trajectory needs to be smooth, so that the robot does not make sudden changes in direction or speed that may destabilize the system or cause discomfort to human users.
 
+We first calculate the path coordinate points and time series from the code, and use them as input parameters for trajectory calculation. Through trajectory calculation, we can obtain the expected end-effector position and the motion trajectory data applicable to each point after coordinate transformation (which is a 4001*3 data, recording the three-dimensional coordinate points of the path every 0.01 seconds and simulated for a total of 40 seconds).
+
+
 \subsection{PID design}
 
 \begin{figure}[htbp]

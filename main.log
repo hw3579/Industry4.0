@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  30 MAR 2023 20:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  30 MAR 2023 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -526,6 +526,9 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 LaTeX Warning: Label `t1' multiply defined.
 
 
+LaTeX Warning: Label `f5' multiply defined.
+
+
 LaTeX Warning: Label `f1' multiply defined.
 
 
@@ -681,19 +684,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 53.
+(caption)                particular \caption on input line 49.
 See the caption package documentation for explanation.
 
 [2]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 74.
+(caption)                particular \caption on input line 69.
 See the caption package documentation for explanation.
 
-) (./Introduction/Task_2.tex
+File: ./fig/1.jpg Graphic file (type bmp)
+<./fig/1.jpg>
+) (./Introduction/Task_2.tex [3]
 File: ./fig/workspace.jpg Graphic file (type bmp)
 <./fig/workspace.jpg>
- [3]) (./Introduction/Task_3.tex
+ [4]) (./Introduction/Task_3.tex
 File: ./fig/D-H.jpg Graphic file (type bmp)
 <./fig/D-H.jpg>
 ) (./Introduction/Task_4.tex
@@ -704,12 +709,12 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-[4]
+[5]
 File: ./fig/traj.png Graphic file (type bmp)
 <./fig/traj.png>
 File: ./fig/PID.png Graphic file (type bmp)
 <./fig/PID.png>
- [5]
+ [6]
 File: ./fig/re.png Graphic file (type bmp)
 <./fig/re.png>
 File: ./fig/3.jpg Graphic file (type bmp)
@@ -722,7 +727,7 @@ File: ./fig/5.jpg Graphic file (type bmp)
 <./fig/5.jpg>
 File: ./fig/7.jpg Graphic file (type bmp)
 <./fig/7.jpg>
- [6] [7]) (./Conclusion/conclusion.tex) [8]
+) (./Conclusion/conclusion.tex) [7] [8] [9]
 No file main.bbl.
 (./main.aux)
 
@@ -732,15 +737,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B324CE7C27F2E5E446BEBBE624095B95;1543.
+(rerunfilecheck)             Checksum: 610BB529E342E94E64E53B266C9718F0;1543.
  ) 
 Here is how much of TeX's memory you used:
- 22633 strings out of 478126
- 473330 string characters out of 5853226
- 799169 words of memory out of 5000000
- 42914 multiletter control sequences out of 15000+600000
+ 22642 strings out of 478126
+ 473451 string characters out of 5853226
+ 800247 words of memory out of 5000000
+ 42922 multiletter control sequences out of 15000+600000
  478978 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  76i,11n,88p,600b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (9 pages).
