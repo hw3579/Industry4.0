@@ -4,28 +4,15 @@
 
 \subsection{How original and unique is the designed robot?}
 
-After discussion and doing some references, our group decide to make our robot arm as a four-arm robot and define the robot arms and joints, because there are some advantages of four-arm robot:
-
-\begin{itemize}
-\item better accuracy and stability of the movement;
-\item bigger working arrangement;
-\item better loading allowance;
-\item better collaboration.
-\end{itemize}
-
+After discussion and doing some references, our group decide to make our robot arm as a four-arm robot and define the robot arms and joints, because there are some advantages of four-arm robot: better accuracy and stability of the movement; bigger working arrangement; better loading allowance; better collaboration.
 
 \textbf{And there are also some unique assessments of our four-robot arms can meet:}
-
 \begin{itemize}
-\item The welding robot arm allows more precise control of the welding position and angle.
-\item The stability in high temperature, low temperature and hazardous gas environments ensure safe and stable welding.
-\item Compared to manual welding, welding robots can automate welding work, thus increasing productivity and reducing labor costs.
-\item To make sure the arms and joints will not clash into each other.
-\item Risk of joint interference: Do kinematic analysis to determine the minimum spacing and range of the movements between the joints and the robot arms, so that we can avoid the interference of the clash of the joints.
-\item Simulation analysis: After setting the exact parameters of the arms and joints, we use MATLAB to do simulation of real situations, and make sure the clash of the joints and arms won't happen.
-\item Design concept: After doing some researches of designing the robots, we consider the working arrangement, the stability of the robots and its operability. In order to achieve the function of welding in an exact area, we finally make the definitions of the parameters of all the arms and joints.
+    \item The welding robot arm allows for more precise control of welding position and angle.
+    \item Compared to manual welding, welding robots can automate welding work, thereby increasing productivity and reducing labor costs.
+    \item To prevent clashes between arms and joints, we perform kinematic analysis to determine the minimum spacing and range of movement between joints and robot arms, and use MATLAB simulations to ensure collision-free operation with exact arm and joint parameters.
+    \item After researching robot design, we consider working arrangement, stability, and operability. To achieve precise welding in a specific area, we define parameters for all arms and joints.
 \end{itemize}
-
 
 \subsection{Property of all the arms and the joints}
 
@@ -82,5 +69,3 @@ This is a schematic diagram of the robot in MATLAB.
 \subsection{Collision discussion}
 
 Our designed robot is free from collisions. In most cases, collisions occur on the two arms of the rotating joints whose rotation angle is greater than $±90^\circ$. For our designed robot, the total range of motion for the two movable joints is $±35^\circ$, so there is no collision. Additionally, the animation of the robot's movement trajectory can be viewed in the dynamic image in Figure 8.
-
-\newpage

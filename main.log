@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  30 MAR 2023 21:49
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  30 MAR 2023 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -546,6 +546,21 @@ LaTeX Warning: Label `f1' multiply defined.
 
 LaTeX Warning: Label `f1' multiply defined.
 
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -681,23 +696,24 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./Introduction/Introduction.tex) (./Introduction/Task_1.tex [1
 
-] [2]
+]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 49.
+(caption)                particular \caption on input line 36.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 69.
+(caption)                particular \caption on input line 56.
 See the caption package documentation for explanation.
 
+[2]
 File: ./fig/1.jpg Graphic file (type bmp)
 <./fig/1.jpg>
-[3]) (./Introduction/Task_2.tex
+) (./Introduction/Task_2.tex
 File: ./fig/workspace.jpg Graphic file (type bmp)
 <./fig/workspace.jpg>
- [4]) (./Introduction/Task_3.tex
+ [3]) (./Introduction/Task_3.tex
 File: ./fig/D-H.jpg Graphic file (type bmp)
 <./fig/D-H.jpg>
 ) (./Introduction/Task_4.tex
@@ -708,12 +724,25 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
+[4]
 File: ./fig/traj.png Graphic file (type bmp)
 <./fig/traj.png>
-[5]
+File: ./fig/siwei.png Graphic file (type bmp)
+<./fig/siwei.png>
+ [5]
+File: ./fig/IK.png Graphic file (type bmp)
+<./fig/IK.png>
+File: ./fig/ID.png Graphic file (type bmp)
+<./fig/ID.png>
+ [6]
+File: ./fig/G.png Graphic file (type bmp)
+<./fig/G.png>
+File: ./fig/FDK.png Graphic file (type bmp)
+<./fig/FDK.png>
+ [7]
 File: ./fig/PID.png Graphic file (type bmp)
 <./fig/PID.png>
- [6]
+ [8]
 File: ./fig/re.png Graphic file (type bmp)
 <./fig/re.png>
 File: ./fig/3.jpg Graphic file (type bmp)
@@ -722,12 +751,12 @@ File: ./fig/4.jpg Graphic file (type bmp)
 <./fig/4.jpg>
 File: ./fig/6.jpg Graphic file (type bmp)
 <./fig/6.jpg>
- [7] [8]
+ [9] [10]
 File: ./fig/5.jpg Graphic file (type bmp)
 <./fig/5.jpg>
 File: ./fig/7.jpg Graphic file (type bmp)
 <./fig/7.jpg>
-) (./Conclusion/conclusion.tex) [9]
+) (./Conclusion/conclusion.tex) [11]
 No file main.bbl.
 (./main.aux)
 
@@ -740,12 +769,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 610BB529E342E94E64E53B266C9718F0;1543.
  ) 
 Here is how much of TeX's memory you used:
- 22646 strings out of 478126
- 473596 string characters out of 5853226
- 801247 words of memory out of 5000000
- 42924 multiletter control sequences out of 15000+600000
+ 22686 strings out of 478126
+ 474245 string characters out of 5853226
+ 802251 words of memory out of 5000000
+ 42959 multiletter control sequences out of 15000+600000
  478994 words of font info for 78 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 76i,11n,88p,600b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,11n,88p,724b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (9 pages).
+Output written on main.pdf (11 pages).
