@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  30 MAR 2023 14:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.29)  30 MAR 2023 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -525,6 +525,12 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 
 LaTeX Warning: Label `t1' multiply defined.
 
+
+LaTeX Warning: Label `f1' multiply defined.
+
+
+LaTeX Warning: Label `f1' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
@@ -663,19 +669,31 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 50.
+(caption)                particular \caption on input line 53.
 See the caption package documentation for explanation.
 
 [2]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 72.
+(caption)                particular \caption on input line 74.
 See the caption package documentation for explanation.
 
 ) (./Introduction/Task_2.tex
 File: ./fig/workspace.jpg Graphic file (type bmp)
 <./fig/workspace.jpg>
-) (./Introduction/Task_3.tex [3]) (./Introduction/Task_4.tex) (./Conclusion/conclusion.tex) [4]
+) (./Introduction/Task_3.tex [3]) (./Introduction/Task_4.tex
+File: ./fig/sim.pdf Graphic file (type pdf)
+<use ./fig/sim.pdf>
+
+Overfull \hbox (13.94182pt too wide) in paragraph at lines 9--10
+ [][] 
+ []
+
+File: ./fig/traj.png Graphic file (type bmp)
+<./fig/traj.png>
+File: ./fig/PID.png Graphic file (type bmp)
+<./fig/PID.png>
+[4] [5]) (./Conclusion/conclusion.tex) [6]
 No file main.bbl.
 (./main.aux)
 
@@ -685,15 +703,15 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 68FBB7EC17C8BEB586AD7C16FD5E9898;1020.
+(rerunfilecheck)             Checksum: B324CE7C27F2E5E446BEBBE624095B95;1543.
  ) 
 Here is how much of TeX's memory you used:
- 22551 strings out of 478126
- 472064 string characters out of 5853226
- 798473 words of memory out of 5000000
- 42842 multiletter control sequences out of 15000+600000
+ 22577 strings out of 478126
+ 472503 string characters out of 5853226
+ 799168 words of memory out of 5000000
+ 42865 multiletter control sequences out of 15000+600000
  478978 words of font info for 76 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 76i,11n,88p,557b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 76i,11n,88p,600b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (6 pages).
