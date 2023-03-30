@@ -1,14 +1,13 @@
-\section{Task 4}
+\section{Task 4: Simulink and Simulation}
 \FloatBarrier % Now figures cannot float above section title
 
-
 \subsection{Simulink}
-
-\begin{figure}[htbp]
+Figure \ref{F 5.1} shows a schematic of Simulink.
+\begin{figure}[htp]
     \centering
     \includegraphics[width=17cm]{./fig/sim.jpg}
-    \caption{plastic modules of rectangular section  }
-    \label{f1}
+    \caption{The Simulink}
+    \label{F 5.1}
 \end{figure}
 
 \subsubsection*{Tidy of the model}
@@ -19,20 +18,20 @@ To ensure aesthetic appeal, a modular design approach was adopted, where differe
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=10cm]{./fig/traj.png}
-    \caption{plastic modules of rectangular section  }
-    \label{f1}
-\end{figure}
-
-\begin{figure}[htbp]
-    \centering
-    \includegraphics[width=10cm]{./fig/siwei.png}
-    \caption{plastic modules of rectangular section  }
-    \label{f1}
+    \caption{The Denevit-Hartenberg frame}
+    \label{F 5.2}
 \end{figure}
 
 Trajectory generation module is an important component of robot motion planning, as it allows robots to move safely and efficiently in complex environments.This module is to convert signals from one coordinate system to another so that we can have easier control of the system. Additionally, the trajectory needs to be smooth, so that the robot does not make sudden changes in direction or speed that may destabilize the system or cause discomfort to human users.
 
 We first calculate the path coordinate points and time series from the code, and use them as input parameters for trajectory calculation. Through trajectory calculation, we can obtain the expected end-effector position and the motion trajectory data applicable to each point after coordinate transformation (which is a 4001*3 data, recording the three-dimensional coordinate points of the path every 0.01 seconds and simulated for a total of 40 seconds).
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=10cm]{./fig/siwei.png}
+	\caption{plastic modules of rectangular section  }
+	\label{F 5.3}
+\end{figure}
 
 
 \subsubsection*{Inverse kinematics}
@@ -47,12 +46,13 @@ We first calculate the path coordinate points and time series from the code, and
 Inverse Kinematics module is used to determine the joint angles of a robot, such that the robot's end-effector reaches a desired target position or orientation. Inverse kinematics is often an important component of robot control, such as robot path planning and robot motion control.
 
 In the inverse kinematics module, we use the desired end-effector position as input and calculate the expected joint angles using inverse kinematics. The output is a matrix containing time-series data, which records the rotation angles of different joints of the robotic arm every 0.01 seconds.
+%缺少运动过程描述
 
-\subsubsection*{Inverse kinematics}
+\subsubsection*{Inverse dynamics}
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=8cm]{./fig/ID.png}
+    \includegraphics[width=10cm]{./fig/ID.png}
     \caption{plastic modules of rectangular section  }
     \label{f1}
 \end{figure}
