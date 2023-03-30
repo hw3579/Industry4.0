@@ -33,6 +33,7 @@ We first calculate the path coordinate points and time series from the code, and
 	\label{F 5.3}
 \end{figure}
 
+\autoref{F 5.3} is a flowchart of the process we use to compute the trajectory of the robot's end effector position. First, we divide the rectangle required for the task into four line segments. For each line segment, we divide it into 9 equally long segments, and expect the robot to take 9 seconds to move along it. After that, the robot needs to spend 1 second for stabilization, followed by 2 seconds of welding work at the work point.
 
 \subsubsection*{Inverse kinematics}
 
