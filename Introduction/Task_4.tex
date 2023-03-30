@@ -28,6 +28,26 @@ Trajectory generation module is an important component of robot motion planning,
 We first calculate the path coordinate points and time series from the code, and use them as input parameters for trajectory calculation. Through trajectory calculation, we can obtain the expected end-effector position and the motion trajectory data applicable to each point after coordinate transformation (which is a 4001*3 data, recording the three-dimensional coordinate points of the path every 0.01 seconds and simulated for a total of 40 seconds).
 
 
+\subsubsection*{Inverse kinematics}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=8cm]{./fig/IK.png}
+    \caption{plastic modules of rectangular section  }
+    \label{f1}
+\end{figure}
+
+Inverse Kinematics module is used to determine the joint angles of a robot, such that the robot's end-effector reaches a desired target position or orientation. Inverse kinematics is often an important component of robot control, such as robot path planning and robot motion control.
+
+In the inverse kinematics module, we use the desired end-effector position as input and calculate the expected joint angles using inverse kinematics. The output is a matrix containing time-series data, which records the rotation angles of different joints of the robotic arm every 0.01 seconds.
+
+\subsubsection*{Inverse kinematics}
+
+
+
+
+
+
 \subsection{PID design}
 
 \begin{figure}[htbp]
@@ -63,6 +83,7 @@ Finally, set the end effector positions and the desired end effector positoins a
     \label{f1}
 \end{figure}
 
+As shown in the figure below, this is the torque figure of each joint required for the robot during operation. By observing the figure, it can be found that, except for the initial instability during startup, we only need less than $30N\cdot m$ of torque to drive the robot to complete the welding task.
 
 \subsubsection*{Joint angle}
 
