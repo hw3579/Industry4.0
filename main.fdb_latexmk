@@ -1,22 +1,22 @@
 # Fdb version 3
-["bibtex main"] 1680223955 "main.aux" "main.bbl" "main" 1680223964
+["bibtex main"] 1680224508 "main.aux" "main.bbl" "main" 1680225183
   "d:/texlive/2021/texmf-dist/bibtex/bst/IEEEtran/IEEEtran.bst" 1639284122 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "main.aux" 1680223960 6114 f71a0b21b395a536220bd3bd830c40ee "xelatex"
+  "main.aux" 1680225178 6114 2503b9492fec07a0918ed9120ca0172b "xelatex"
   "mendeley.bib" 1680213432 74992 59764d266bf4096834c7b1a710aa67ae ""
   (generated)
-  "main.bbl"
   "main.blg"
-["xdvipdfmx"] 1680223962 "main.xdv" "main.pdf" "main" 1680223964
-  "main.xdv" 1680223960 102168 db6d3d045ca65daeff9054a5df7d9267 "xelatex"
+  "main.bbl"
+["xdvipdfmx"] 1680225180 "main.xdv" "main.pdf" "main" 1680225183
+  "main.xdv" 1680225178 102148 15ae8b6888868ea53aa9b54e4c4d2ad1 "xelatex"
   (generated)
   "main.pdf"
-["xelatex"] 1680223956 "c:/Users/11912/Desktop/1/Industry4.0/main.tex" "main.xdv" "main" 1680223964
+["xelatex"] 1680225173 "c:/Users/11912/Desktop/1/Industry4.0/main.tex" "main.xdv" "main" 1680225183
   "Conclusion/conclusion.tex" 1680214321 20 b50204e17c0a475d3d65191e029fdf1d ""
   "Introduction/Introduction.tex" 1680213432 1357 b6d8da6e2d9ccb0e4e05cc3b7c15efe5 ""
-  "Introduction/Task_1.tex" 1680223947 2761 65632a252f350440e2c156e6daecfe84 ""
+  "Introduction/Task_1.tex" 1680224524 2763 2413cf5f5152bea412e49a2410169dc4 ""
   "Introduction/Task_2.tex" 1680220665 436 83c6e877fea39c1909f042ec4c99e1ed ""
   "Introduction/Task_3.tex" 1680222842 642 6103984225b671ff45bafc7ef823bda0 ""
-  "Introduction/Task_4.tex" 1680223456 7556 350082bfc945525c54d5d4c5b0138cb9 ""
+  "Introduction/Task_4.tex" 1680225172 7561 fdb5efe43ee0d57189fba1dd2f8c0a96 ""
   "Misc/preamble.tex" 1680213432 2323 bc118059b8b881b18cace68448bd6135 ""
   "c:/Users/11912/Desktop/1/Industry4.0/main.tex" 1680213432 1583 4ddad4d1f72d7d85751b8ab75e2ca3c3 ""
   "d:/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1639285919 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -165,9 +165,9 @@
   "fig/siwei.png" 1680213432 138275 8c1c44274cbca5550152e66c8f71ef0f ""
   "fig/traj.png" 1680213432 13700 827923af79bfd445c7ac6f74f2b35278 ""
   "fig/workspace.jpg" 1680213432 21855 1d8acc073f5134263aeb378e30f6c127 ""
-  "main.aux" 1680223960 6114 f71a0b21b395a536220bd3bd830c40ee "xelatex"
-  "main.bbl" 1680223956 877 628a2a8c68e066122d1514411e0b8455 "bibtex main"
-  "main.out" 1680223960 1884 5ccfddc27a9fc0215d3aeae3597e9c9e "xelatex"
+  "main.aux" 1680225178 6114 2503b9492fec07a0918ed9120ca0172b "xelatex"
+  "main.bbl" 1680224509 877 628a2a8c68e066122d1514411e0b8455 "bibtex main"
+  "main.out" 1680225178 1884 5ccfddc27a9fc0215d3aeae3597e9c9e "xelatex"
   "main.tex" 1680213432 1583 4ddad4d1f72d7d85751b8ab75e2ca3c3 ""
   "mcode.sty" 1680213432 15032 7074a5c6dddd045f73287340e2899316 ""
   (generated)
