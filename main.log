@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2021.1.18)  31 MAR 2023 11:04
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/W32TeX)  (format=lualatex 2021.1.18)  31 MAR 2023 11:29
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -956,9 +956,10 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 (e:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-(./Introduction/Introduction.tex) (./Introduction/Task_1.tex [1
+(./Introduction/Introduction.tex [1
 
-{e:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{e:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Introductio
+n/Task_1.tex
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 28.
@@ -969,25 +970,27 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 46.
 See the caption package documentation for explanation.
 
-<./fig/1.jpg, id=66, 702.625pt x 526.96875pt>
+[2]
+<./fig/1.jpg, id=88, 702.625pt x 526.96875pt>
 File: ./fig/1.jpg Graphic file (type jpg)
 <use ./fig/1.jpg>
 Package luatex.def Info: ./fig/1.jpg  used on input line 53.
 (luatex.def)             Requested size: 199.16928pt x 149.37552pt.
-) (./Introduction/Task_2.tex [2]
-<./fig/workspace.jpg, id=82, 702.625pt x 526.96875pt>
+) (./Introduction/Task_2.tex
+<./fig/workspace.jpg, id=90, 702.625pt x 526.96875pt>
 File: ./fig/workspace.jpg Graphic file (type jpg)
 <use ./fig/workspace.jpg>
 Package luatex.def Info: ./fig/workspace.jpg  used on input line 9.
 (luatex.def)             Requested size: 227.62204pt x 170.71602pt.
-) (./Introduction/Task_3.tex [3<./fig/1.jpg><./fig/workspace.jpg>]
-<./fig/D-H.jpg, id=91, 1119.18124pt x 1084.05pt>
+) (./Introduction/Task_3.tex [3<./fig/1.jpg>]
+<./fig/D-H.jpg, id=100, 1119.18124pt x 1084.05pt>
 File: ./fig/D-H.jpg Graphic file (type jpg)
 <use ./fig/D-H.jpg>
 Package luatex.def Info: ./fig/D-H.jpg  used on input line 8.
 (luatex.def)             Requested size: 199.16928pt x 192.90405pt.
-) (./Introduction/Task_4.tex
-<./fig/sim.jpg, id=93, 3312.375pt x 849.1725pt>
+)
+(./Introduction/Task_4.tex
+<./fig/sim.jpg, id=102, 3312.375pt x 849.1725pt>
 File: ./fig/sim.jpg Graphic file (type jpg)
 <use ./fig/sim.jpg>
 Package luatex.def Info: ./fig/sim.jpg  used on input line 8.
@@ -997,82 +1000,79 @@ Overfull \hbox (13.94182pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-<./fig/traj.png, id=94, 319.1925pt x 131.2905pt>
+[4<./fig/workspace.jpg><./fig/D-H.jpg>]
+<./fig/traj.png, id=109, 319.1925pt x 131.2905pt>
 File: ./fig/traj.png Graphic file (type png)
 <use ./fig/traj.png>
 Package luatex.def Info: ./fig/traj.png  used on input line 20.
 (luatex.def)             Requested size: 284.52756pt x 117.03246pt.
-[4<./fig/D-H.jpg><./fig/sim.jpg>]
-<./fig/siwei.png, id=103, 2214.2725pt x 960.58875pt>
+<./fig/siwei.png, id=111, 2214.2725pt x 960.58875pt>
 File: ./fig/siwei.png Graphic file (type png)
 <use ./fig/siwei.png>
 Package luatex.def Info: ./fig/siwei.png  used on input line 29.
 (luatex.def)             Requested size: 284.52756pt x 123.42984pt.
-<./fig/IK.png, id=106, 781.7205pt x 307.1475pt>
+<./fig/IK.png, id=114, 781.7205pt x 307.1475pt>
 File: ./fig/IK.png Graphic file (type png)
 <use ./fig/IK.png>
 Package luatex.def Info: ./fig/IK.png  used on input line 41.
 (luatex.def)             Requested size: 227.62204pt x 89.43605pt.
- [5<./fig/traj.png><./fig/siwei.png>]
-<./fig/ID.png, id=120, 428.19975pt x 145.14224pt>
+ [5<./fig/sim.jpg><./fig/traj.png>]
+<./fig/ID.png, id=125, 428.19975pt x 145.14224pt>
 File: ./fig/ID.png Graphic file (type png)
 <use ./fig/ID.png>
 Package luatex.def Info: ./fig/ID.png  used on input line 52.
 (luatex.def)             Requested size: 284.52756pt x 96.44528pt.
-<./fig/G.png, id=122, 177.66376pt x 132.495pt>
+
+[6<./fig/siwei.png><./fig/IK.png>]
+<./fig/G.png, id=139, 177.66376pt x 132.495pt>
 File: ./fig/G.png Graphic file (type png)
 <use ./fig/G.png>
 Package luatex.def Info: ./fig/G.png  used on input line 65.
 (luatex.def)             Requested size: 142.26378pt x 106.09721pt.
-<./fig/FDK.png, id=124, 1070.19826pt x 296.307pt>
+<./fig/FDK.png, id=141, 1070.19826pt x 296.307pt>
 File: ./fig/FDK.png Graphic file (type png)
 <use ./fig/FDK.png>
 Package luatex.def Info: ./fig/FDK.png  used on input line 78.
 (luatex.def)             Requested size: 227.62204pt x 63.02205pt.
- [6<./fig/IK.png><./fig/ID.png>]
-<./fig/PID.png, id=138, 585.98924pt x 305.943pt>
+<./fig/PID.png, id=142, 585.98924pt x 305.943pt>
 File: ./fig/PID.png Graphic file (type png)
 <use ./fig/PID.png>
-Package luatex.def Info: ./fig/PID.png  used on input line 90.
+Package luatex.def Info: ./fig/PID.png  used on input line 89.
 (luatex.def)             Requested size: 284.52756pt x 148.55489pt.
-<./fig/re.png, id=141, 677.53125pt x 407.5225pt>
+ [7<./fig/ID.png><./fig/G.png><./fig/FDK.png>]
+<./fig/re.png, id=158, 677.53125pt x 407.5225pt>
 File: ./fig/re.png Graphic file (type png)
 <use ./fig/re.png>
-Package luatex.def Info: ./fig/re.png  used on input line 104.
+Package luatex.def Info: ./fig/re.png  used on input line 103.
 (luatex.def)             Requested size: 199.16928pt x 119.79524pt.
- [7<./fig/G.png><./fig/FDK.png><./fig/PID.png>]
-<./fig/3.jpg, id=152, 702.625pt x 526.96875pt>
+<./fig/3.jpg, id=160, 702.625pt x 526.96875pt>
 File: ./fig/3.jpg Graphic file (type jpg)
 <use ./fig/3.jpg>
-Package luatex.def Info: ./fig/3.jpg  used on input line 117.
+Package luatex.def Info: ./fig/3.jpg  used on input line 116.
 (luatex.def)             Requested size: 284.52756pt x 213.39705pt.
-<./fig/4.jpg, id=153, 702.625pt x 526.96875pt>
+<./fig/4.jpg, id=161, 702.625pt x 526.96875pt>
 File: ./fig/4.jpg Graphic file (type jpg)
 <use ./fig/4.jpg>
-Package luatex.def Info: ./fig/4.jpg  used on input line 129.
+Package luatex.def Info: ./fig/4.jpg  used on input line 125.
 (luatex.def)             Requested size: 227.62204pt x 170.71602pt.
-<./fig/7.jpg, id=154, 702.625pt x 538.01pt>
+<./fig/7.jpg, id=162, 702.625pt x 538.01pt>
 File: ./fig/7.jpg Graphic file (type jpg)
 <use ./fig/7.jpg>
-Package luatex.def Info: ./fig/7.jpg  used on input line 130.
+Package luatex.def Info: ./fig/7.jpg  used on input line 126.
 (luatex.def)             Requested size: 227.62204pt x 174.29294pt.
- [8<./fig/re.png><./fig/3.jpg>]
-<./fig/5.jpg, id=167, 702.625pt x 526.96875pt>
+ [8<./fig/PID.png><./fig/re.png>] [9<./fig/3.jpg><./fig/4.jpg><./fig/7.jpg>]
+<./fig/5.jpg, id=180, 702.625pt x 526.96875pt>
 File: ./fig/5.jpg Graphic file (type jpg)
 <use ./fig/5.jpg>
-Package luatex.def Info: ./fig/5.jpg  used on input line 147.
+Package luatex.def Info: ./fig/5.jpg  used on input line 142.
 (luatex.def)             Requested size: 227.62204pt x 170.71602pt.
-<./fig/6.jpg, id=168, 702.625pt x 526.96875pt>
+<./fig/6.jpg, id=181, 702.625pt x 526.96875pt>
 File: ./fig/6.jpg Graphic file (type jpg)
 <use ./fig/6.jpg>
-Package luatex.def Info: ./fig/6.jpg  used on input line 148.
+Package luatex.def Info: ./fig/6.jpg  used on input line 143.
 (luatex.def)             Requested size: 227.62204pt x 170.71602pt.
- [9<./fig/4.jpg><./fig/7.jpg>])
-(./Conclusion/conclusion.tex) (./main.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 24.
-
 )
+(./Conclusion/conclusion.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
  [10<./fig/5.jpg><./fig/6.jpg>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
@@ -1094,25 +1094,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 22051 strings out of 480992
+ 22036 strings out of 480992
  125171,794899 words of node,token memory allocated
  598 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 4 glyph, 12 attribute, 62 glue_spec
 , 9 attribute_list, 1 write, 4 pdf_colorstack nodes
-   avail lists: 2:769,3:103,4:28,5:79,6:26,7:2484,8:26,9:244,10:10,11:184
- 38668 multiletter control sequences out of 65536+600000
+   avail lists: 2:668,3:105,4:28,5:85,6:25,7:2981,8:27,9:256,10:10,11:191
+ 38661 multiletter control sequences out of 65536+600000
  79 fonts using 14146335 bytes
- 47i,11n,83p,854b,776s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 47i,11n,83p,854b,753s stack positions out of 5000i,500n,10000p,200000b,100000s
 <c:/Windows/Fonts/arialbd.ttf><c:/Windows/Fonts/arial.ttf><e:/texlive/2020/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><e:/texlive/2020/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi8.pfb><e:/texlive/2020/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr10.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmr8.pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb><e:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (10 pages, 1144095 bytes).
+Output written on main.pdf (10 pages, 1146225 bytes).
 
-PDF statistics: 220 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 131072)
+PDF statistics: 225 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
+ 50 named destinations out of 1000 (max. 131072)
  105 words of extra memory for PDF output out of 10000 (max. 100000000)
 
