@@ -4,18 +4,7 @@
 
 \subsection{Originality and uniqueness of the robot}
 
-
-Although a two-armed robot will be able to reach the required working space, it will suffer from imprecise movements and be prone to damage. And it cannot be adapted to other work types, increasing costs. 
-
-After discussion and doing some references, our group decide to make our robot arm as a four-arm robot and define the robot arms and joints, because there are some advantages of four-arm robot: better accuracy and stability of the movement; bigger working arrangement; better loading allowance; better collaboration.
-
-\textbf{And there are also some unique assessments of our four-robot arms can meet:}
-\begin{itemize}
-    \item The welding robot arm allows for more precise control of welding position and angle.
-    \item Compared to manual welding, welding robots can automate welding work, thereby increasing productivity and reducing labor costs.
-    \item To prevent clashes between arms and joints, we perform kinematic analysis to determine the minimum spacing and range of movement between joints and robot arms, and use MATLAB simulations to ensure collision-free operation with exact arm and joint parameters.
-    \item After researching robot design, we consider working arrangement, stability, and operability. To achieve precise welding in a specific area, we define parameters for all arms and joints.
-\end{itemize}
+Our robot's uniqueness lies in the fact that it is a four-arm robot. Although two-arm and three-arm robots can perform the same tasks, they are relatively unstable and more difficult to control. In addition, a four-arm robot can provide a larger workspace and a greater potential for improvement.
 
 \subsection{Property of all the arms and the joints}
 
@@ -34,7 +23,7 @@ We have designed 4 joints for the robot, 2 of which are revolute type and 2 are 
     P2   & 1.5       & (0 0 0)        & (0.07 0.07 0.07 )    \\
     Tool & 1.2       & (0 0 0)        & (0.002 0.002 0.004 ) \\ \hline
     \end{tabular}} 
-    \caption{Experiment parameters}
+    \caption{Robot arm parameters}
     \label{T 2.1} 
 \end{minipage}
 
@@ -52,7 +41,7 @@ We have designed 4 joints for the robot, 2 of which are revolute type and 2 are 
     4   & prismatic      & $[-1, 1]$        & [0 1 0]    \\ 
     Fixed &revolute & N/A & N/A \\\hline
     \end{tabular}} 
-    \caption{Experiment parameters}
+    \caption{Joint parameters}
     \label{T 2.2} 
 \end{minipage}
 
@@ -60,7 +49,7 @@ Figure \ref{F 2.1} is a schematic diagram of the robot in MATLAB.
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=7cm]{./fig/1.jpg}
-    \caption{Force vs deformation and total moment diagram}
+    \caption{Robot schematic}
     \label{F 2.1}
 \end{figure}
 
